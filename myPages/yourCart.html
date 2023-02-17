@@ -33,31 +33,7 @@
                 <i class="fa fa-user"></i>
                 <a href="../myPages/yourCart.html"><i class="fa fa-shopping-cart text-bg-danger p-2 rounded-5"></i></a>
             </div>
-        <!-- <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto text-center fs-6 fw-bold pt-3">
-                  <li class="nav-item px-2 py-2 p">
-                    <a class="nav-link text-uppercase text-dark" href="#">
-                      Cakes</a>
-                  </li>
-                  <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark"  href="category.html">
-                      Category</a>
-                  </li>
-                  <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark" href="about.html">
-                      about us</a>
-                  </li>
-                  <li class="nav-item px-2 py-2 border-0">
-                    <a class="nav-link text-uppercase text-dark" href="faq.html">
-                      FAQ</a>
-                  </li>
-                  <li class="nav-item px-2 py-2 border-0">
-                    <a class="nav-link text-danger text-uppercase" href="login.html">
-                      Account</a>
-                  </li>
-            </ul>   
-        </div> -->
-    </nav>
+     </nav>
   </div>
 </div>
  <!-- navbar ends here -->
@@ -67,116 +43,13 @@
   <label for="search-box" class="fas fa-search"></label>
   <i class="fas fa-times" id="close"></i>
 </form>
-
 <!-- cart empty -->
 <div class="container text-center pb-5 pt-5">
   <h2 class="cartShop fw-bold">Shopping Cart</h2>
   <p>Your cart is currently empty</p>
   <button class="btn_login px-5 py-2 bg-info fw-bold border-0 rounded-2"><a href="../index.html">Continue Browsing</a></button>  
 </div>
-<!-- cart section design -->
-<!-- <section class="cartSection pt-0">
-  <div class="myCart">
-    <div class="myCartRewards">
-      <h3 id="myCart">My Cart</h3>
-      <label id="labelCode">Enter your Reward/Points here</label>
-      <input id="promo-code" type="text" name="promo-code" maxlength="5" class="rewardsInput">
-      <button class="rewardsBtn bg-dark text-light">APPLY</button>
-    </div>
-    <div class="basket-labels">
-      <ul id="listHolder">
-        <li class="item item-heading fs-6 fw-bold my-0" id="listItem">Item</li>
-        <li class="price fs-6 fw-bold my-0" id="listItem">Price</li>
-        <li class="quantity fs-6 fw-bold my-0" id="listItem">Quantity</li>
-        <li class="subtotal fs-6 fw-bold my-0" id="listItem">Subtotal</li>
-      </ul>
-    </div>
-    <div class="cartItems">
-      <div class="item">
-        <div class="product-image">
-          <img src="../cakeImage/cake12.png" alt="cakeImage" class="product-frame">
-        </div>
-        <div class="product-details">
-          <div>
-             <p class="pre bg-danger text-light p-1 d-inline">Preferred</p>
-          </div>
-        <span class="item-quantity fw-bold fs-4">Creamy Vanilla</span>
-          <h1>3 layer Fondant Cake</h1>
-          <p class="my-0">Round, Large</p>
-          <p>Item Code: RheyRome2314</p>
-        </div>
-      </div>
-      <div class="price fs-6">2,435.00</div>
-      <div class="quantity">
-        <input type="number" value="1" min="0" class="quantity-field  fs-6 h1 bg-warning-subtle">
-      </div>
-      <div class="subtotal fs-6 fw-bold">2,435.00</div>
-      <div class="remove">
-        <button>Remove</button>
-      </div>
-    </div>
-  <div class="cartItems">
-      <div class="item">
-        <div class="product-image">
-          <img src="../cakeImage/cake5.png" alt="cakeImage" class="product-frame">
-        </div>
-        <div class="product-details">
-          <span class="item-quantity fw-bold fs-4">Creamy Chocolate</span>
-          <h1>with almond nuts inside</h1>
-          <p class="my-0">Round, Large</p>
-          <p>Item Code: RheyRome418754</p>
-        </div>
-      </div>
-      <div class="price fs-6">356.00</div>
-      <div class="quantity">
-        <input type="number" value="1" min="0" class="quantity-field  fs-6 h1 bg-warning-subtle">
-      </div>
-      <div class="subtotal fs-6 fw-bold">356.00</div>
-      <div class="remove">
-        <button>Remove</button>
-      </div>
-    </div>
-  </div>
-  <aside>
-    <div class="summary">
-      <div class="summary-total-items"><span class="total-items text-danger fw-bold fs-6">Items in your cart</div>
-     <div class="summary-delivery pt-3">
-        <select name="delivery-collection" class="paymentSelect">
-            <option value="0" selected="selected">Payment Method</option>
-           <option value="cod">Cash on Delivery</option>
-           <option value="gcash">G-Cash</option>
-           <option value="overTheCounter">Over-the-counter</option>
-           <option value="paypal">Paypal</option>
-           <option value="card">Debit/Credit Card</option>
-           <option value="paymaya">Paymaya</option>
-           <option value="scan">Scan to Pay</option>
-        </select>
-      </div>
-      <div class="summary-subtotal">
-      <div class="subtotal-title fs-6">Subtotal</div>
-      <div class="subtotal-value final-value fs-6" id="basket-subtotal">
-        2,791.00
-      </div>
-      </div>
-      <div class="subtotal-title fs-6">Shipping Cost</div>
-      <div class="subtotal-value final-value fs-6" id="basket-subtotal">
-        140.00
-        <div class="summary-promo hide">
-          <div class="promo-title">Promotion</div>
-          <div class="promo-value final-value" id="basket-promo"></div>
-        </div>
-      </div>
-      <div class="summary-total pt-4">
-        <div class="total-title fs-6">Total</div>
-        <div class="total-value final-value fs-6 fw-bold" id="basket-total">2,931.00</div>
-      </div>
-      <div class="checkoutBtn">
-        <button class="checkoutBtn bg-danger text-light fw-bold fs-6"><a href="../myPages/placeOrderSuccess.html" class="orderPlace text-light">PLACE ORDER</a></button>
-      </div>
-    </div>
-  </aside>
-</section> -->
-<!-- footer -->
+ <!-- footer -->
 <footer class="footer">
   <div class="container">
       <div class="row mx-sm-2 mx-md-0 ">
