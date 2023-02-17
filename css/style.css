@@ -179,9 +179,27 @@ ul li:hover ul.dropdown {display: block;}
     background-image: url("../valentinesCakes/heartbackground.jpg");
     background-size: cover;
 }
+#valquote {
+  font-size: 35px;
+  font-family: 'Marck Script', cursive;
+}
 .feb_treat h2 {
     font-family: 'Gochi Hand', cursive;
 } 
+/* birthday section */
+#birthdayCategory {
+  background-image: url("../iconSet/birthdayBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#wedCakesCategory {
+  background-image: url("../iconSet/wedBackground.jpg");
+  background-size: cover;
+}
+#christening {
+  background-image: url("../iconSet/christeningBackground.jpg");
+  background-size: contain;
+}
 #foodSafetyLogo img {
   width: 150px;
   margin-right: 20px;

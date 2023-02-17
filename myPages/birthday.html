@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rhey Yu | Romeo Agacita">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../logo/cakelogo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <title>Sweet Cake Alabama</title>
+</head>
+<body>
+ <!-- Navbar section -->
+ <div class="header">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container menu-bar">
+      <button class="navbar-toggler" type="button" 
+            data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+      </button>
+        <a class="navbar-brand" href="../index.html"><img src="../logo/logo3.png"></a>
+          <div class="order-lg-1 nav_social">
+              <i class="fa fa-search" id="search-icon"></i>
+              <i class="fa fa-user"></i>
+              <a href="../myPages/yourCart.html"><i class="fa fa-shopping-cart text-bg-danger p-2 rounded-5"></i></a>
+          </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center fs-6 fw-bold pt-3">
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link dropdown-toggle text-uppercase text-dark" href="myPages/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category</a>
+                      <ul class="dropdown fw-light" id="dropdown">
+                        <li><a href="../myPages/birthday.html">Birthday Cakes</a></li>
+                        <li><a href="../myPages/wedding.html">Weddings Cakes</a></li>
+                        <li><a href="../myPages/christening.html">Christening Cakes</a></li>
+                      </ul>
+                  </li>
+                <li class="nav-item px-2 py-2">
+                  <a class="nav-link text-uppercase text-dark" href="../myPages/about.html">
+                    about us</a>
+                </li>
+                <li class="nav-item px-2 py-2 border-0">
+                  <a class="nav-link text-uppercase text-dark" href="../myPages/faq.html">
+                    FAQ</a>
+                </li>
+                <li class="nav-item px-2 py-2 border-0">
+                  <a class="nav-link text-danger text-uppercase" href="../myPages/login.html">
+                    Login</a>
+                </li>
+          </ul>   
+        </div>
+      </div>
+  </nav>
+</div>
+ <!-- navbar ends here -->
+  <!-- search Form -->
+  <form action="" id="search-form">
+    <input type="search" placeholder="Search your desired cake here..."id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+  </form>
+  <!-- birthday cakes -->
+  <section class="category" id="birthdayCategory">
+    <div class="bdaycake text-end">
+     <img class="bdayImage img-fluid w-25" src="/iconSet/birthdayImg.png" alt="birthday wordings">
+    </div>
+    <div class="container pt-5 text-center fw-bold">
+         <div class="row">
+           <div class="col-lg mb-4">
+             <div class="card text-center h-100 mb-0 shadow-lg bg-dark-subtle">
+               <div class="img_heart">
+                 <img src="../categoryCakes/blue cake.png" height="280px" class="card-img mx-auto w-75" alt="cake_image">
+                 <a href="#" class="fas fa-heart"></a>
+                 </div>
+                <div class="card-body pb-0 pt-0 mb-0">
+                   <div class="stars fs-3">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                   </div> 
+                       <p class="card_title fs-4">Blue Velvet with Cupcake Icing </p>
+                       <p class="subtitle text-danger fs-3 mb-0 fw-lighter">Ribbon with love<p>                    
+                 </div>
+                   <span class="fw-bold fs-4">P1,200.00</span> <del>P1,500.00</del>
+                   <div>
+                     <a href="#" class="btn text-light fw-bolder mb-5" id="btn_price">ADD TO CART</a>
+                   </div>
+             </div>
+         </div>
+           <div class="col-lg mb-4">
+             <div class="card text-center h-100 shadow-lg bg-info-subtle">
+               <div class="img_heart">
+                 <img src="../categoryCakes/chococake.png" class="card-img mx-auto w-75" alt="cake_image">
+                <a href="#" class="fas fa-heart"></a>
+               </div>
+                 <div class="card-body">
+                   <div class="stars fs-3">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div>
+                   <p class="card_title fs-4">Choco side sprinkles </p>
+                   <p class="subtitle text-danger fs-3 mb-0 fw-lighter">Sweetness Overload<p>        
+                 </div>
+                   <span class="fw-bold fs-4">P870.00</span> <del>P1,000.00</del>
+                   <div>
+                     <a href="#" class="btn text-light fw-bolder mb-5" id="btn_price">ADD TO CART</a>
+                   </div>
+             </div>
+         </div>
+           <div class="col-lg mb-4">
+             <div class="card text-center h-100 shadow-lg bg-dark-subtle">
+               <div class="img_heart">
+                 <img src="../categoryCakes/cake6.png" class="card-img mx-auto w-75" alt="cake_image">
+                 <a href="#" class="fas fa-heart"></a>
+               </div>
+                <div class="card-body">
+                   <div class="stars fs-3">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                 </div>
+                   <p class="card_title fs-4">Vanilla Raspberry n Cream top with red berries</p>
+                   <p class="subtitle text-danger fs-3 mb-0 fw-lighter">Round n Round we go<p>    
+                 </div>
+                   <span class="fw-bold fs-4">P950.00</span> <del>P1,100.00</del>
+                   <div>
+                     <a href="#" class="btn text-light fw-bolder mb-5" id="btn_price">ADD TO CART</a>
+                   </div>
+             </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-lg mb-4">
+           <div class="card text-center h-100 shadow-lg bg-info-subtle">
+             <div class="img_heart">
+               <img src="../categoryCakes/cake8.png" class="card-img mx-auto w-75" alt="cake_image">
+               <a href="#" class="fas fa-heart"></a>
+             </div>
+             <div class="card-body">
+                 <div class="stars fs-3">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+               </div>
+                 <p class="card_title fs-4">Espresso Cafe</p>
+                 <p class="subtitle text-danger fs-3 mb-0 fw-lighter">Not just coffee in the morning<p>    
+               </div>
+                 <span class="fw-bold fs-4">P745.00</span> <del>P980.00</del>
+                 <div>
+                   <a href="#" class="btn text-light fw-bolder mb-5" id="btn_price">ADD TO CART</a>
+                 </div>
+           </div>
+       </div>
+       <div class="col-lg mb-4">
+           <div class="card text-center h-100 shadow-lg bg-dark-subtle">
+             <div class="img_heart">
+               <img src="../categoryCakes/cake20.png" class="card-img mx-auto w-75" alt="cake_image">
+               <a href="#" class="fas fa-heart"></a>
+             </div>
+              <div class="card-body">
+                 <div class="stars fs-3">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+               </div>
+                 <p class="card_title fs-4">Lemon Raspberry n Cream</p>
+                 <p class="subtitle text-danger fs-3 pb-0 pt-0 fw-lighter">Mallows on top<p>    
+               </div>
+                 <span class="fw-bold fs-4">P980.00</span> <del>P1,350.00</del>
+                 <div>
+                   <a href="#" class="btn text-light fw-bolder mb-5" id="btn_price">ADD TO CART</a>
+                 </div>
+           </div>
+       </div>
+       <div class="col-lg mb-4">
+           <div class="card text-center h-100 shadow-lg bg-info-subtle">
+             <div class="img_heart">
+               <img src="../categoryCakes/cake1.png" class="card-img mx-auto w-75" alt="cake_image">
+               <a href="#" class="fas fa-heart"></a>
+             </div>
+              <div class="card-body">
+                 <div class="stars fs-3">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+               </div>
+                 <p class="card_title fs-4">Tremendously Strawberry</p>
+                 <p class="subtitle text-danger fs-3 pb-0 pt-0 fw-lighter">It's your day today?<p>    
+               </div>
+                 <span class="fw-bold fs-4">P520.00</span> <del>P740.00</del>
+                 <div>
+                   <a href="#" class="btn text-light fw-bolder mb-5" id="btn_price">ADD TO CART</a>
+                 </div>
+           </div>
+       </div>
+     </div>
+ </div>    
+</section>
+
+ <!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row mx-sm-2 mx-md-0">
+            <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+                <h2 class="fw-bolder pt-4" id="subscribe">Subscribe Now!</h2>
+                <p class="">for the latest offer, promos & discount</p>
+                 <input type="text" class="form-control-footer" placeholder="Enter Email"/>
+                <button class="btn_footer" data-bs-toggle="modal"
+                        data-bs-target="#subscribe2">
+                    <i class="bi bi-chevron-right"></i>
+                    <div class="tooltip">Submit</div>
+                </button>
+                <div class="footer_links d-flex" id="links">
+                    <ul class="list pt-4 px-0 w-25">
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="cons" data-bs-toggle="modal" data-bs-target="#contactUs">
+                            <a href="#">Contact Us</a>
+                          </li>
+                        <li><a href="../myPages/about.html">About Us</a></li>
+                        <li><a href="#cakes">Cakes</a></li>
+                        <li><a href="../myPages/faq.html">FAQ</a></li>
+                    </ul>
+                    <ul class="list pt-4 list2 w-50">
+                        <li><a href="../myPages/privacy.html">Privacy Policy</a></li>
+                        <li><a href="../myPages/terms.html">Terms and Condition</a></li>
+                        <li><a href="../myPages/terms.html">Return & Refund</a></li>
+                        <li><a href="#Order tracking">Order Tracing</a></li>
+                    </ul>
+                    <div class="payment d-md-flex d-sm-none justify-content-center">
+                      <img class="payment_method" src="../iconSet/payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 ">
+                <div class="d-flex pt-4">
+                    <h2 class="fw-bold footer-list-title text-danger">Contact Info</h2>
+                </div>
+                <div class="contact_details pt-4">
+                    <h4 class="mobile fw-bold">Mobile&#58;</h4>
+                    <p>0915-125-4125 | 0915-125-4125</p>
+                    <h4 class="fw-bold">e-mail&#58;</h4>
+                    <p>sweetcakealabama@hotmail.com</p>
+                    <h4 class="fw-bold">address&#58;</h4>
+                    <p>Muholland Drive, 10 Cloverfield Lane, Lost Highway City</p>
+                </div>
+                <div class="socials_footer">
+                    <p class="follow fw-bold">FOLLOW US&#58;</p>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+        <div class="lower_footer text-center fs-6">
+            <p class="copyright">&copy; 2023 | <a href="../index.html">Sweet Cake Alabama</a> | Online Birthday Cake, Chocolate Cake and Corporate Cake Catering. Delivery in the Philippines</p>
+        </div> 
+  </footer>
+ <!-- back to top -->
+ <a href="#top" class="back-top-btn" 
+                aria-label="back to top" 
+                data-back-top-btn><ion-icon name="chevron-up" class="chevron_icon"></ion-icon></a>
+ <!-- modal section -->
+ <div class="modal fade" id="subscribe2"
+      tabindex="-1" aria-labelledby="subscribe2label"
+      aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="subscribe2label">
+          Thank you for Subscribing!</h5>
+            <button
+                type="button" 
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close">
+            </button>
+      </div>
+      <div class="modal-body">
+        <p>Because you are one of our Subscriber-you will received rewards/points for every cake purchase.And you will be updated first to our latest cake flavors, discounts and promos.</p>
+        <span class="text-danger fs-4">Happy Shopping!</span>
+      </div>
+      <div class="modal-footer">
+        <button 
+          type="button" 
+          class="btn btn-modal" id="btn-modal" 
+          data-bs-dismiss="modal">
+          Close
+        </button>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- modal 2 contact us-->
+<div class="modal fade" id="contactUs"
+      tabindex="-1" aria-labelledby="contactUslabel"
+      aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-danger fs-3 fw-light" id="contactUslabel">
+           Contact Us</h5>
+            <button
+                type="button" 
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close">
+            </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-center">Please fill out this form to contact us and we'll get back to you within 24 hours.</p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="col-form-label">
+              Name:
+            </label>
+            <input type="text" class="form-control" required id="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" required id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone:</label>
+            <input type="number" class="form-control" required id="phone" />
+          </div>
+          <div>
+            <textarea cols="55" rows="7" placeholder="your message"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger"><a href="../myPages/contactSuccess.html">Submit</button>
+       </div>
+      </div>
+  </div>
+</div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="../script/login.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>
