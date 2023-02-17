@@ -139,7 +139,7 @@ ul li:hover ul.dropdown {display: block;}
 }
 /* --best seller section-- */
 .best_seller {
-    background-image: url(logo/bg1.jpg);
+    background-image: url(/logo/bg1.jpg);
     background-size: cover;
     background-position: bottom;
 }
@@ -176,7 +176,7 @@ ul li:hover ul.dropdown {display: block;}
 #different li {list-style: disc;}
 /* --valentines seciton-- */
 .valentines {
-    background-image: url(valentinesCakes/heartbackground.jpg);
+    background-image: url(/valentinesCakes/heartbackground.jpg);
     background-size: cover;
 }
 .feb_treat h2 {
