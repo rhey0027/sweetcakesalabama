@@ -292,7 +292,7 @@ ul li:hover ul.dropdown {display: block;}
     color: #fff;
     background-size: cover;
     background-position: center;
-    background-image: url(logo/bg2.jpg);
+    background-image: url("../logo/bg2.jpg");
     background-repeat: no-repeat;
     overflow: hidden;
 }
