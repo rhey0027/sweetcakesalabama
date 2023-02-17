@@ -430,7 +430,7 @@ label span.text-checkbox {
     }
 }
 /* --cart section-- */
-/* .product-details h1 {
+.product-details h1 {
   font-size: 18px;
 }
 img,
@@ -742,5 +742,5 @@ aside {
   .product-details {
     padding: 0 1rem;
   }
-} */
+} 
 
