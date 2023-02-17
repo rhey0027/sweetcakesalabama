@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rhey Yu | Romeo Agacita">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="/logo/cakelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Sweet Cake Alabama</title>
+</head>
+<body>
+ <!-- Navbar section -->
+ <div class="header">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container menu-bar">
+      <button class="navbar-toggler" type="button" 
+            data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+      </button>
+        <a class="navbar-brand" href="/index.html"><img src="/logo/logo3.png"></a>
+          <div class="order-lg-1 nav_social">
+              <i class="fa fa-search" id="search-icon"></i>
+              <i class="fa fa-user"></i>
+              <a href="/myPages/yourCart.html"><i class="fa fa-shopping-cart text-bg-danger p-2 rounded-5"></i></a>
+          </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center fs-6 fw-bold pt-3">
+                <li class="nav-item px-2 py-2 p">
+                  <a class="nav-link text-uppercase text-dark" href="#">
+                    Cakes</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                  <a class="nav-link text-uppercase text-dark"  href="category.html">
+                    Category</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                  <a class="nav-link text-uppercase text-dark" href="about.html">
+                    about us</a>
+                </li>
+                <li class="nav-item px-2 py-2 border-0">
+                  <a class="nav-link text-uppercase text-dark" href="faq.html">
+                    FAQ</a>
+                </li>
+                <li class="nav-item px-2 py-2 border-0">
+                  <a class="nav-link text-danger text-uppercase" href="login.html">
+                    Login</a>
+                </li>
+            </ul>   
+        </div>
+      </div>
+  </nav>
+</div>
+ <!-- navbar ends here -->
+ <!-- search Form -->
+ <form action="" id="search-form">
+  <input type="search" placeholder="Search your desired cake here..." id="search-box">
+  <label for="search-box" class="fas fa-search"></label>
+  <i class="fas fa-times" id="close"></i>
+</form>
+<!-- featured Products -->
+<section class="about" id="about">
+        <div class="container">
+            <div class="featured_products pt-5">
+                <div class="col-md-4">
+                    <h4 class="text-center">Featured character Birthday cakes</h4>
+                </div>
+                <div class="row">
+                    <div class="col-sm mb-4 fw-bold">
+                        <div class="card text-center h-100">
+                            <img src="/characterCakes/cake2.png" class="card-img-top" alt="cake_image">
+                            <div class="card-body">
+                              <p class="card-text text-bg-primary">Cake and Ice Cream</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm mb-4 fw-bold">
+                        <div class="card text-center h-100 ">
+                            <img src="/characterCakes/cake6.png" class="card-img-top img-fluid" alt="cake_image">
+                            <div class="card-body">
+                              <p class="card-text text-bg-warning">Mama Sang I luv u</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm mb-4 fw-bold">
+                        <div class="card text-center h-100 ">
+                            <img src="/characterCakes/cake7.png" class="card-img-top img-fluid" alt="cake_image">
+                            <div class="card-body">
+                              <p class="card-text text-bg-primary">Mixx flavor fondant round</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm mb-4 fw-bold">
+                        <div class="card text-center h-100 ">
+                            <img src="/characterCakes/cake5.png" class="card-img-top img-fluid" alt="cake_image">
+                            <div class="card-body">
+                              <p class="card-text text-bg-warning">Pinkies and greenish</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+<!-- frequently asked questions -->
+<section id="questions" class="p-5">
+   <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="accordion accordion-flush" id="questions">
+        <!-- item one -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one">
+                Do you make custom cakes like Frozen Character cake? and other character cakes?
+            </button>
+            </h2>
+            <div
+                id="question-one"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions">
+                <div class="accordion-body">
+                Yes, we do make custom cakes. Just email us to inquire about pricing and feasibility.
+                </div>
+            </div>
+        </div>
+        <!-- item two -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two">
+                Will sweet cake alabama confirm my order?
+            </button>
+            </h2>
+            <div
+                id="question-two"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions">
+                <div class="accordion-body">
+                Yes, as soon as your order has been processed through our secure, on-line, real-time credit card processing system, an e-mail message that confirms the order will be sent to you along with the confirmation of the date and time of your delivery.
+                </div>
+            </div>
+        </div>
+        <!-- item three -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three">
+                Why do you charge a delivery fee?
+            </button>
+            </h2>
+            <div
+                id="question-three"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions">
+                <div class="accordion-body">
+                    All our personnel are company staff, to ensure professionalism and proper on time delivery service. We never use contract drivers or third party drivers for all our deliveries. Our delivery fee includes proper care packaging, food tampering label and delivery service.
+                </div>
+            </div>
+        </div>
+        <!-- item four -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four">
+                Can I cancel or change my order?
+            </button>
+            </h2>
+            <div
+                id="question-four"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions">
+                <div class="accordion-body">
+                As soon as we confirm your order,our bakery will begin the cake preparation process. Therefore, in most cases, we are unable to cancel or modify your order. If you need to make adjustments to your order, please email us at sweetcakealabama.hotmail.com or you can use our contact form to inquire if your order can be modified.
+                </div>
+            </div>
+        </div>
+        <!-- item five -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five">
+               What will happen if I receive the wrong delivery?
+            </button>
+            </h2>
+            <div
+                id="question-five"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions">
+                <div class="accordion-body">
+                Mistakes do happened. If you received a wrong order, please contact us via email on the day of delivery. We will try our best to replace your cake if possible or we will issue you a full refund if replacement is not possible.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+</section>
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row mx-sm-2 mx-md-0 ">
+            <div class="col-lg-8 col-md-12 mb-4 mb-md-0">
+                <h2 class="fw-bolder pt-4" id="subscribe">Subscribe Now!</h2>
+                <p class="">for the latest offer, promos & discount</p>
+                 <input type="text" class="form-control-footer" placeholder="Enter Email"/>
+                <button class="btn_footer" data-bs-toggle="modal"
+                        data-bs-target="#subscribe2">
+                    <i class="bi bi-chevron-right"></i>
+                    <div class="tooltip">Submit</div>
+                </button>
+                <div class="footer_links d-flex" id="links">
+                    <ul class="list pt-4 px-0 w-25">
+                        <li><a href="/index.html">Home</a></li>
+                        <li class="cons" data-bs-toggle="modal" data-bs-target="#contactUs">
+                            <a href="#">Contact Us</a>
+                          </li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#cakes">Cakes</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                    <ul class="list pt-4 list2 w-50">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms and Condition</a></li>
+                        <li><a href="terms.html">Return & Refund</a></li>
+                        <li><a href="#Order tracking">Order Tracing</a></li>
+                    </ul>
+                    <div class="payment d-md-flex d-sm-none justify-content-center">
+                      <img class="payment_method" src="/icons/payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 ">
+                <div class="d-flex pt-4">
+                    <h2 class="fw-bold footer-list-title text-danger">Contact Info</h2>
+                </div>
+                <div class="contact_details pt-4">
+                    <h4 class="mobile fw-bold">Mobile&#58;</h4>
+                    <p>0915-125-4125 | 0915-125-4125</p>
+                    <h4 class="fw-bold">e-mail&#58;</h4>
+                    <p>sweetcakealabama@hotmail.com</p>
+                    <h4 class="fw-bold">address&#58;</h4>
+                    <p>Muholland Drive, 10 Cloverfield Lane, Lost Highway City</p>
+                </div>
+                <div class="socials_footer">
+                    <p class="follow fw-bold">FOLLOW US&#58;</p>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+        <div class="lower_footer text-center fs-6">
+            <p class="copyright">&copy; 2023 | <a href="#home">Sweet Cake Alabama</a> | Online Birthday Cake, Chocolate Cake and Corporate Cake Catering. Delivery in the Philippines</p>
+        </div> 
+  </footer>
+ <!-- back to top -->
+ <a href="#top" class="back-top-btn" 
+                aria-label="back to top"
+                data-back-top-btn><ion-icon name="chevron-up" class="chevron_icon"></ion-icon></a>
+ <!-- modal section -->
+ <div class="modal fade" id="subscribe2"
+      tabindex="-1" aria-labelledby="subscribelabel"
+      aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="subscribelabel">
+          Thank you for Subscribing!</h5>
+            <button
+                type="button" 
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close">
+            </button>
+      </div>
+      <div class="modal-body">
+        <p>Because you are one of our Subscriber-you will received rewards/points for every cake purchase.And you will be updated first to our latest cake flavors, discounts and promos.</p>
+        <span class="text-danger fs-4">Happy Shopping!</span>
+      </div>
+      <div class="modal-footer">
+        <button 
+          type="button" 
+          class="btn btn-modal" id="btn-modal" 
+          data-bs-dismiss="modal">
+          Close
+        </button>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- modal 2 contact us-->
+<div class="modal fade" id="contactUs"
+      tabindex="-1" aria-labelledby="contactUslabel"
+      aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-danger fs-3 fw-light" id="contactUslabel">
+           Contact Us</h5>
+            <button
+                type="button" 
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close">
+            </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-center">Please fill out this form to contact us and we'll get back to you within 24 hours.</p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="col-form-label">
+              Name:
+            </label>
+            <input type="text" class="form-control" required id="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" required id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone:</label>
+            <input type="number" class="form-control" required id="phone" />
+          </div>
+          <div>
+            <textarea cols="55" rows="7" placeholder="your message"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-danger"><a href="contactSuccess.html">Submit</button>
+       </div>
+      </div>
+  </div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="/script/login.js"></script>
+<script src="/script/script.js"></script>
+</body>
+</html>
